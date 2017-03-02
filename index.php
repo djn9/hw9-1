@@ -6,7 +6,7 @@ $phone = '';
 $message = 'Enter some data and click on the Submit button.';
 
 //edited values
-$firstname = 
+$firstname = strpos($name, '')
 $lastname = 
 
 //process
@@ -40,7 +40,7 @@ switch ($action) {
          * Display the validation message
          ************************************************/
         $message = <<<MESSAGE
-		Hello $name,
+		Hello $firstname,
 
 		Thank you for entering this data:
 
